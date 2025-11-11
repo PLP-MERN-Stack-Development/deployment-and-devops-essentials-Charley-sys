@@ -1,0 +1,27 @@
+.App {
+  min-height: 100vh;
+}
+
+ul {
+  list-style-position: inside;
+  line-height: 1.6;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+button {
+  background-color: #667eea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #5a6fd8;
+}
