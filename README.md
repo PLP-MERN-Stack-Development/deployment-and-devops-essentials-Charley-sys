@@ -1,7 +1,7 @@
 # 🚀 Week 7: Deployment and DevOps Essentials - Submission
 # 📋 Project Overview
 
-Student: Charley-sys
+Student: Charles Otieno
 
 Repository: PLP-MERN-Stack-Development/deployment-and-devops-essentials-Charley-sys
 
