@@ -25,3 +25,78 @@ button {
 button:hover {
   background-color: #5a6fd8;
 }
+/* Biomedical Theme Styles */
+.equipment-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.equipment-item {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1rem;
+  border-left: 4px solid #3498db;
+}
+
+.equipment-item h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.status {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.status.operational {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.maintenance {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status.offline {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.status-item h3 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Update header colors for medical theme */
+.header {
+  background: linear-gradient(135deg, #3498db 0%, #2c3e50 100%);
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}

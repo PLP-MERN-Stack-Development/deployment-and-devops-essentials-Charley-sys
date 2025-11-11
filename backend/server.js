@@ -2,14 +2,10 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
-const mongoose = require('mongoose');  // This line was missing or incorrect
+const mongoose = require('mongoose');
 
 const app = express();
-const healthRoutes = require('./routes/health');
-// Production security middleware
-if (process.env.NODE_ENV === 'production') {
-  app.set('trust proxy', 1); // Trust first proxy
-}
+
 // Middleware
 app.use(express.json());
 app.use(cors({
@@ -27,7 +23,6 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/merndb', 
 .catch(err => console.log('MongoDB connection error:', err));
 
 // Routes
-app.use('/api/health', healthRoutes);
 app.get('/api/health', (req, res) => {
   res.json({
     status: 'OK',
@@ -41,13 +36,10 @@ app.get('/api/health', (req, res) => {
 app.get('/api/users', (req, res) => {
   res.json({
     message: 'Users API endpoint',
-    users: [
-      { id: 1, name: 'John Doe', email: 'john@example.com' },
-      { id: 2, name: 'Jane Smith', email: 'jane@example.com' },
-      { id: 3, name: 'Bob Johnson', email: 'bob@example.com' }
-    ]
+    users: []
   });
 });
+
 // Error handling middleware
 app.use((err, req, res, next) => {
   console.error(err.stack);
