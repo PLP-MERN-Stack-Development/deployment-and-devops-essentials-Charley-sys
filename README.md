@@ -1,7 +1,9 @@
 # 🚀 Week 7: Deployment and DevOps Essentials - Submission
 # 📋 Project Overview
-#Student: Charley-sys
-#Repository: PLP-MERN-Stack-Development/deployment-and-devops-essentials-Charley-sys
+
+Student: Charley-sys
+
+Repository: PLP-MERN-Stack-Development/deployment-and-devops-essentials-Charley-sys
 
 
 # ✅ Task Completion Status
