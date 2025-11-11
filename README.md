@@ -173,24 +173,43 @@ Backend: http://localhost:5000
 text
 deployment-and-devops-essentials-Charley-sys/
 ├── 📁 backend/
+
 │   ├── 🚀 server.js (Production server)
+
 │   ├── 📁 routes/ (API routes)
+
 │   ├── 📁 config/ (Database configuration)
+
 │   ├── 📁 middleware/ (Custom middleware)
+
 │   ├── ⚙️ package.json (Dependencies & scripts)
+
 │   ├── 🌐 render.yaml (Render deployment config)
+
 │   └── 🔧 .env.example (Environment template)
+
 ├── 📁 frontend/
+
 │   ├── ⚛️ src/ (React components)
+
 │   ├── 📦 public/ (Static assets)
+
 │   ├── ⚙️ package.json (Dependencies & scripts)
+
 │   ├── 🌐 vercel.json (Vercel deployment config)
+
 │   └── 🔧 .env.production (Production environment)
+
 ├── 📁 .github/
+
 │   └── 📁 workflows/
+
 │       └── 🔄 deployment.yml (CI/CD pipeline)
+
 ├── 📖 README.md (Documentation)
+
 └── 📋 deployment-guide.md (Deployment instructions)
+
 🔧 Key Features Implemented
 1. Production-Ready Configuration
 Environment-specific configurations
