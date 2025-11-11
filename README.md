@@ -1,10 +1,10 @@
-#🚀 Week 7: Deployment and DevOps Essentials - Submission
-#📋 Project Overview
+# 🚀 Week 7: Deployment and DevOps Essentials - Submission
+# 📋 Project Overview
 #Student: Charley-sys
 #Repository: PLP-MERN-Stack-Development/deployment-and-devops-essentials-Charley-sys
 
 
-#✅ Task Completion Status
+# ✅ Task Completion Status
 🎯 Task 1: Application Preparation - COMPLETED ✅
 Backend Optimization:
 
@@ -36,7 +36,7 @@ Connection string environment variables
 
 Production-ready database configuration
 
-#🌐 Task 2: Backend Deployment - COMPLETED ✅
+# 🌐 Task 2: Backend Deployment - COMPLETED ✅
 Deployment Platform: Render
 Live Backend URL: https://deployment-and-devops-essentials-charley.onrender.com
 
@@ -60,7 +60,7 @@ GET /api/health/detailed - Detailed system status ✅
 
 GET /api/users - Sample API endpoint ✅
 
-#⚡ Task 3: Frontend Deployment - COMPLETED ✅
+# ⚡ Task 3: Frontend Deployment - COMPLETED ✅
 Deployment Platform: Vercel
 Live Frontend URL: https://n-eboherr20-charles-otienos-projects-7eea7a88.vercel.app
 
@@ -78,7 +78,7 @@ Static assets caching
 
 Custom domain ready
 
-#🔄 Task 4: CI/CD Pipeline - CONFIGURED ✅
+# 🔄 Task 4: CI/CD Pipeline - CONFIGURED ✅
 GitHub Actions Workflow: .github/workflows/deployment.yml
 
 Features:
@@ -103,7 +103,7 @@ Automatic deployment to Render & Vercel
 
 Health check verification
 
-#📊 Task 5: Monitoring & Maintenance - IMPLEMENTED ✅
+# 📊 Task 5: Monitoring & Maintenance - IMPLEMENTED ✅
 Application Monitoring:
 
 Health check endpoints (/api/health, /api/health/detailed)
@@ -124,7 +124,7 @@ Deployment rollback procedures
 
 Monitoring and alerting setup
 
-#🛠️ Technical Implementation
+# 🛠️ Technical Implementation
 Backend Stack
 javascript
 // Core Technologies
@@ -152,7 +152,7 @@ Monitoring:
   - Custom health checks
   - System metrics
   - Error tracking
-#🌐 Live Application URLs
+# 🌐 Live Application URLs
 Production Environment
 Frontend Application: https://n-eboherr20-charles-otienos-projects-7eea7a88.vercel.app
 
@@ -167,7 +167,7 @@ Frontend: http://localhost:3000
 
 Backend: http://localhost:5000
 
-#📁 Project Structure
+# 📁 Project Structure
 text
 deployment-and-devops-essentials-Charley-sys/
 ├── 📁 backend/
@@ -226,7 +226,7 @@ Secure credential handling
 
 Automated quality checks
 
-📈 Performance Metrics
+# 📈 Performance Metrics
 Backend Performance
 Response Time: < 200ms for health checks
 
@@ -245,7 +245,7 @@ Caching: Efficient static asset caching
 
 Code Splitting: Implemented for better performance
 
-#🎯 Learning Outcomes Demonstrated
+# 🎯 Learning Outcomes Demonstrated
 Deployment Proficiency: Successfully deployed full MERN stack to production
 
 DevOps Skills: Implemented CI/CD pipelines and automation
@@ -258,7 +258,7 @@ Security Awareness: Implemented production security measures
 
 Problem Solving: Resolved deployment challenges and optimization issues
 
-🔮 Future Enhancements
+# 🔮 Future Enhancements
 Database Integration: Connect to MongoDB Atlas for full data persistence
 
 Advanced Monitoring: Integrate with services like Sentry, DataDog
@@ -269,7 +269,7 @@ Containerization: Dockerize application for better portability
 
 Multi-environment: Set up staging, UAT, and production environments
 
-#✅ Verification Checklist
+# ✅ Verification Checklist
 Application deployed and accessible via public URLs
 
 Backend API responding to requests
